@@ -4,7 +4,7 @@ source('code/functions.R')
 
 shinyUI(
   navbarPage('GeneDynamicExplorer',
-             tabPanel('RPE1 TGFbeta Time Course Plots',
+             tabPanel('Time Course Plots',
                       sidebarPanel(
                         #img(src = 'logo.png', style = "float: left; width: 75px; margin-right: 10px; margin-top: 5px"),
                         titlePanel(strong("RNA-seq Time Course Plots")),
